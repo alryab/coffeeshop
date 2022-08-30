@@ -32,7 +32,7 @@ class textChat:
 	def main(self):
 		if self.message.chat.id == 1064692141:
 			bot.send_message(self.message.chat.id,
-							 '{0.first_name} {1.last_name}, завали своё ебало!'.format(self.message.from_user,
+							 '{0.first_name} {1.last_name}, доступ запрещён!'.format(self.message.from_user,
 																					   self.message.from_user))
 		else:
 			if self.message.text == 'Меню':
